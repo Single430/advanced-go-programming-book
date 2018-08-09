@@ -316,3 +316,6 @@ func main() {
 我们通过Go语言标准库自带的`net/http`包构造了一个独立运行的http服务。其中`http.HandleFunc("/", ...)`针对`/`根路径请求注册了响应处理函数。在响应处理函数中，我们依然使用`fmt.Fprintf`格式化输出函数实现了通过http协议向请求的客户端打印格式化的字符串，同时通过标准库的日志包在服务器端也打印相关字符串。最后通过`http.ListenAndServe`函数调用来启动http服务。
 
 至此，Go语言终于完成了从单机单核时代的C语言到21世纪互联网时代多核环境的通用编程语言的蜕变。
+
+[上一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-01-genesis.md)
+[下一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-03-array-string-and-slice.md)
