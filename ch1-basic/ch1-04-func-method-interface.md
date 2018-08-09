@@ -499,3 +499,6 @@ type Plugin interface {
 `generate.Plugin`接口对应的`grpcPlugin`类型的`GenerateImports`方法中使用的`p.P(...)`函数却是通过`Init`函数注入的`generator.Generator`对象实现。这里的`generator.Generator`对应一个具体类型，但是如果`generator.Generator`是接口类型的话我们甚至可以传入直接的实现。
 
 Go语言通过几种简单特性的组合，就轻易就实现了鸭子面向对象和虚拟继承等高级特性，真的是不可思议。
+
+[上一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-03-array-string-and-slice.md)
+[下一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-05-mem.md)
