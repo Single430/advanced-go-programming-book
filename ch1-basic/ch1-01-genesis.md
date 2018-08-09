@@ -1,4 +1,3 @@
-[下一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-02-hello-revolution.md)
 # 1.1 Go语言创世纪
 
 Go语言最初由Google公司的Robert Griesemer、Ken Thompson和Rob Pike三个大牛于2007年开始设计发明，设计新语言的最初的洪荒之力来自于对超级复杂的C++11特性的吹捧报告的鄙视，最终的目标是设计网络和多核时代的C语言。到2008年中期，语言的大部分特性设计已经完成，并开始着手实现编译器和运行时，大约在这一年Russ Cox作为主力开发者加入。到了2010年，Go语言已经逐步趋于稳定，并在9月正式发布Go语言并开源了代码。
@@ -53,3 +52,4 @@ func main() {
 
 而双引号包含的“你好, 世界!”则是Go语言的字符串面值常量。和C语言中的字符串不同，Go语言中的字符串内容是不可变更的。在以字符串作为参数传递给fmt.Println函数时，字符串的内容并没有被复制——传递的仅仅是字符串的地址和长度（字符串的结构在`reflect.StringHeader`中定义）。在Go语言中，函数参数都是以复制的方式(不支持以引用的方式)传递（比较特殊的是，Go语言闭包函数对外部变量是以引用的方式使用）。
 
+[下一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-02-hello-revolution.md)
