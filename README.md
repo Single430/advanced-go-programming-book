@@ -16,8 +16,6 @@
 
 - 深入CGO编程: https://github.com/chai2010/gopherchina2018-cgo-talk
 
-## 关注微信公众号 (golang-china)
-
 ## 版权声明
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)。
