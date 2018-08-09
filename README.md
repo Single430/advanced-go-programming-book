@@ -18,8 +18,6 @@
 
 ## 关注微信公众号 (golang-china)
 
-![](weixin-golang-china.jpg)
-
 ## 版权声明
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)。
