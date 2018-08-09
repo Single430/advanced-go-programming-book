@@ -618,3 +618,5 @@ func SortFloat64FastV2(a []float64) {
 
 通过基准测试，我们可以发现用`sort.Ints`对转换后的`[]int`排序的性能要比用`sort.Float64s`排序的性能好一点。不过需要注意的是，这个方法可行的前提是要保证`[]float64`中没有NaN和Inf等非规范的浮点数（因为浮点数中NaN不可排序，正0和负0相等，但是整数中没有这类情形）。
 
+[上一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-02-hello-revolution.md)
+[下一页](https://github.com/Single430/advanced-go-programming-book/blob/master/ch1-basic/ch1-04-func-method-interface.md)
